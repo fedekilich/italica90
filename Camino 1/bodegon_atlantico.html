@@ -281,17 +281,15 @@
     color: var(--nero); margin-bottom: 2rem; letter-spacing: -0.01em;
   }
   .descarga-btn {
-    display: inline-flex; align-items: center; gap: 0.6rem;
+    display: inline-flex; align-items: center; gap: 0.8rem;
     background: var(--azzurro); color: var(--bianco);
-    padding: 0.85rem 2.2rem;
-    font-size: 0.8rem; font-weight: 600; letter-spacing: 0.1em;
+    padding: 1.2rem 3rem;
+    font-size: 0.95rem; font-weight: 600; letter-spacing: 0.12em;
     text-transform: uppercase; text-decoration: none;
-    border-radius: 2px;
-    transition: background 0.3s, transform 0.2s;
-    cursor: not-allowed; opacity: 0.6;
+    border-radius: 50px;
+    transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
   }
-  .descarga-btn.ready { cursor: pointer; opacity: 1; }
-  .descarga-btn.ready:hover { background: var(--nero); transform: translateY(-2px); }
+  .descarga-btn:hover { background: var(--nero); transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,0.2); }
 
   /* --- Filosofia --- */
   .filosofia { background: var(--azzurro); padding: 8rem 3rem; text-align: center; color: var(--bianco); }
@@ -503,8 +501,7 @@
 
 <section class="descarga" id="descarga">
   <p class="descarga-label reveal">Material de referencia</p>
-  <h3 class="descarga-titulo reveal">Moodboard completo</h3>
-  <a href="#" class="descarga-btn reveal">↓ Descargar moodboard</a>
+  <a href="Mood%20board%20camino%201%20-%20Bodegon%20Atl%C3%A1ntico.png" download class="descarga-btn reveal">↓ Descargar moodboard</a>
 </section>
 
 <section class="filosofia" id="filosofia">
